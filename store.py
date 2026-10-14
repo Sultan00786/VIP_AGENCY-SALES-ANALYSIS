@@ -178,3 +178,18 @@ required_cols = {
         "Total",
     ],
 }
+
+
+key_cols_for_rem_tail_na = {
+    "collection_summary": "Bill No",
+    "date_wise_collection_summary": "Bill No",
+    "day_book_report": "Voucher No",
+    "pending_bill": "Bill No",
+    "productwisesales": "Bill Number",
+    "product_wise_purchase": "Supplier Code",
+    "salesreturndetail": "Bill Number",
+    "sales_register": "Party Code",
+    "sales_return_register": "Bill No",
+}
+
+sales = "sdfsdf"
