@@ -192,4 +192,50 @@ key_cols_for_rem_tail_na = {
     "sales_return_register": "Bill No",
 }
 
-sales = "sdfsdf"
+col_data_type_fix = {
+    "collection_summary": {
+        "Collection Date": "datetime64[ns]",
+        "Cheque Deposited Date": "datetime64[ns]",
+        "Date": "datetime64[ns]",
+        "Cheque No": "string",
+        "Receipt No.": "string",
+        "Age (Days)": "Int64",
+    },
+
+    "date_wise_collection_summary": {
+        "Coll Date": "datetime64[ns]",
+        "Bill Date": "datetime64[ns]",
+        "Collection Ageing": "Int64",
+        "Bill Net Amt": "int64",
+    },
+
+    "day_book_report": {
+        "Date": "datetime64[ns]",
+    },
+
+    "pending_bill": {
+        "Date": "datetime64[ns]",
+        "Bill Ageing (In Days)": "Int64",
+    },
+
+    "productwisesales": {},
+
+    "product_wise_purchase": {
+        "Invoice Date": "datetime64[ns]",
+        "Expiry Date": "datetime64[ns]",
+        "Basepack Code": "string",
+        "UPC": "string",
+        "Supplier Invoice No": "string",
+    },
+
+    "salesreturndetail": {
+        "Sales Return Date": "datetime64[ns]",
+        "Product UPC": "string",
+    },
+
+    "sales_register": {
+        "BillDate/Sales Return Date": "datetime64[ns]",
+    },
+
+    "sales_return_register": {},
+}
