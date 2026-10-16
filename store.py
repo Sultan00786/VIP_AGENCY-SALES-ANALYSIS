@@ -205,8 +205,7 @@ col_data_type_fix = {
     "date_wise_collection_summary": {
         "Coll Date": "datetime64[ns]",
         "Bill Date": "datetime64[ns]",
-        "Collection Ageing": "Int64",
-        "Bill Net Amt": "int64",
+        "Collection Ageing": "Int64"
     },
 
     "day_book_report": {
